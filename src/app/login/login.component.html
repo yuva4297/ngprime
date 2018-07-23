@@ -1,0 +1,14 @@
+
+<form novalidate class="container"  >
+        <h1 id="header">PrimeNg</h1>
+     
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text"
+           pInputText [(ngModel)]="username" />    <br> <br>
+           <label for="username">Password:</label>
+    <input id="password" name="password" type="text"
+           pInputText formcontrol="password" /><br><br>
+          
+
+    <button type="submit" pButton label="Confirm" onclick="onSubmit()" id="button"></button>
+</form>
